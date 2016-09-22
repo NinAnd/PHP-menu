@@ -5,7 +5,8 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Welcome</title>
+<title>Ninette's PHP Menu</title>
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
@@ -14,8 +15,13 @@
 		include 'menu.php';
 	?>
     
-    <h1>Welcome to Ninette's PHP-menu</h1>
+    <h2>Welcome to Ninette's PHP Menu</h2>
     
     <p>On this website you can see a navigation created with the use of PHP.</p>
+    
+    <?php
+	// 'include' sørger for at indeholdet i footer.php bliver inkluderet på/hentet til denne side
+		include 'footer.php';
+	?>
 </body>
 </html>
