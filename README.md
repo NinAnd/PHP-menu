@@ -6,6 +6,7 @@
 <head>
 <meta charset="utf-8">
 <title>Work</title>
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
@@ -14,8 +15,13 @@
 		include 'menu.php';
 	?>
     
-    <h1>Work</h1>
+    <h2>Work</h2>
     
     <p>Here you will see the work that have been done.</p>
+    
+    <?php
+	// 'include' sørger for at indeholdet i footer.php bliver inkluderet på/hentet til denne side
+		include 'footer.php';
+	?>
 </body>
 </html>
