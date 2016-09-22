@@ -5,7 +5,8 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>About</title>
+<title>Contact</title>
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
@@ -14,8 +15,8 @@
 		include 'menu.php';
 	?>
     
-    <h1>About</h1>
+    <h1>Contact</h1>
     
-    <p>Get to know a little more about me.</p>
+    <p>Here is the information you need to get in contact with me.</p>
 </body>
 </html>
