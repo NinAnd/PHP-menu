@@ -4,6 +4,8 @@
 @charset "utf-8";
 /* CSS Document */
 
+/*** Generelle styles ***/
+
 body {
 	background-color: #f0f2f2;
 }
@@ -18,6 +20,38 @@ h1 {
 p {
 	font-family: Georgia, serif;
 	font-size: 20px;
-	color: darkgrey;
+	color: #626366;
 	margin: 0 40px 20px 40px;
+}
+
+/*** Menu Styles ***/
+
+#php-menu ul {
+	text-align: center;
+	background-color: #7fcec9;
+}
+
+#php-menu li {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	display: inline-block;
+	margin-right: 50px;
+	padding: 10px;
+	font-size: 20px;
+}
+
+#php-menu li a {
+	text-decoration: none;
+	color: #f0f2f2;
+}
+
+/* Tekstændringer der viser hvilken underside man befinder sig på */
+#php-menu .active {
+	color: #626366;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+/* Teksten skifter farve når man holder musemarkøren over den */
+#php-menu li:hover a {
+	color: #626366;
 }
