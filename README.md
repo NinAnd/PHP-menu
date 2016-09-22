@@ -9,8 +9,13 @@
 </head>
 
 <body>
-	<?php 
+	<?php
+	// 'include' sørger for at indeholdet i menu.php bliver inkluderet på/hentet til denne side 
 		include 'menu.php';
 	?>
+    
+    <h1>Work</h1>
+    
+    <p>Here you will see the work that have been done.</p>
 </body>
 </html>
