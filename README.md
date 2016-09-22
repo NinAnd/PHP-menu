@@ -15,8 +15,13 @@
 		include 'menu.php';
 	?>
     
-    <h1>Contact</h1>
+    <h2>Contact</h2>
     
     <p>Here is the information you need to get in contact with me.</p>
+    
+    <?php
+	// 'include' sørger for at indeholdet i footer.php bliver inkluderet på/hentet til denne side
+		include 'footer.php';
+	?>
 </body>
 </html>
