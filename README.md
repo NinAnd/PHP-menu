@@ -10,10 +10,24 @@ body {
 	background-color: #f0f2f2;
 }
 
+header {
+	background-color: #7fcec9;
+	margin: 0;
+}
+
 h1 {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-align: center;
 	font-size: 48px;
+	color: #f0f2f2;
+	padding: 30px;
+	margin: 0;
+}
+
+h2 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+	font-size: 40px;
 	color: #7fcec9;
 }
 
@@ -29,6 +43,8 @@ p {
 #php-menu ul {
 	text-align: center;
 	background-color: #7fcec9;
+	margin-top: 0;
+	border-top: 2px solid #f0f2f2;
 }
 
 #php-menu li {
