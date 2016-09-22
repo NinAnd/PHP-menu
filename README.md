@@ -15,6 +15,15 @@ header {
 	margin: 0;
 }
 
+footer {
+	padding-top: 220px; 
+}
+
+footer p {
+	text-align: right;
+	font-size: 14px;
+}
+
 h1 {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-align: center;
@@ -33,7 +42,7 @@ h2 {
 
 p {
 	font-family: Georgia, serif;
-	font-size: 20px;
+	font-size: 18px;
 	color: #626366;
 	margin: 0 40px 20px 40px;
 }
